@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thala Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main_body">
+
+        <h1>Thala for a reason</h1>
+        <label for="wordInput"></label>
+        <input type="text" id="wordInput" maxlength="20" placeholder="Enter a word">
+        <br><br>
+        <button onclick="checkWord()">Search</button>
+        <button onclick="resetPage()">Reset</button>
+
+
+        <div id="video-container">
+            <video controls autoplay loop>
+                <!-- Add your video source here -->
+                <source src="thala for a reason~1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+        </div>
+        <div id="wrong">
+            <img src="lose.jpg" alt="">
+        </div>
+
+        <div class="instructions">
+            <p>
+
+            <H4> Here are the instructions for the Thala project:</H4>
+
+
+            1.Think of a word that is exactly 7 letters long. <br>
+            2.Write the word in the input area. <br>
+            3.Wait for the result to see if you are correct. <br>
+            4.Enjoy the outcome! <br>
+            </p>
+        </div>
+
+
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
